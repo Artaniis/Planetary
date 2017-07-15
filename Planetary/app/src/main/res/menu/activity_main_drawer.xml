@@ -3,26 +3,27 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_planetas"
             android:icon="@drawable/ic_menu_orbit"
-            android:title="Import" />
+            android:title="Planetas" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_elSol"
             android:icon="@drawable/ic_menu_sun"
-            android:title="Gallery" />
+            android:title="El Sol" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_meteor"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_laLuna"
             android:icon="@drawable/ic_menu_moon"
-            android:title="Tools" />
+            android:title="La Luna" />
         <item
-            android:id="@+id/nav_managed"
+            android:id="@+id/nav_cometas"
+            android:icon="@drawable/ic_menu_meteor"
+            android:title="Cometas" />
+        <item
+            android:id="@+id/nav_viajemos"
             android:icon="@drawable/ic_menu_rocket"
-            android:title="Tools" />
+            android:title="Viajemos" />
     </group>
+
 
     <item android:title="Communicate">
         <menu>
@@ -32,7 +33,7 @@
                 android:title="Share" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_peso"
+                android:icon="@drawable/ic_face"
                 android:title="Send" />
         </menu>
     </item>
